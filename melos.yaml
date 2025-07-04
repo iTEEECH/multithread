@@ -1,0 +1,54 @@
+name: multithread
+repository:
+  type: github
+  origin: https://github.com/iTEEECH/multithread.git
+  owner: iTEEECH
+  name: multithread
+
+packages:
+  - apps/*
+
+command:
+  version:
+    # Generate commit links in package changelogs.
+    linkToCommits: true
+    # # Only allow versioning to happen on main branch.
+    # branch: main
+    # Additionally build a changelog at the root of the workspace.
+    workspaceChangelog: true
+
+  bootstrap:
+    runPubGetInParallel: false
+    usePubspecOverrides: true
+
+    environment:
+      sdk: ^3.8.0
+
+    dependencies:
+      flutter:
+        sdk: flutter
+      flutter_web_plugins:
+        sdk: flutter
+
+    dev_dependencies:
+      flutter_test:
+        sdk: flutter
+
+      # https://pub.dev/packages/flutter_lints
+      flutter_lints: 5.0.0
+
+  clean:
+    hooks:
+      post: |
+        melos exec -c 1 -- "flutter clean"
+
+scripts:
+  analyze:
+    description: Run `dart analyze` for all packages.
+    run: dart analyze .
+    exec:
+      concurrency: 1
+
+  pub:get:
+    description: Run `flutter pub get` for all packages.
+    run: flutter pub get
