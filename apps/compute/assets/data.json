@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "name": "Pilsner Urquell",
+    "brand": "Pilsner Urquell",
+    "type": "Pilsner",
+    "country": "Czech Republic"
+  },
+  {
+    "id": 2,
+    "name": "Guinness Draught",
+    "brand": "Guinness",
+    "type": "Stout",
+    "country": "Ireland"
+  },
+  {
+    "id": 3,
+    "name": "Heineken Lager",
+    "brand": "Heineken",
+    "type": "Lager",
+    "country": "Netherlands"
+  },
+  {
+    "id": 4,
+    "name": "Corona Extra",
+    "brand": "Corona",
+    "type": "Lager",
+    "country": "Mexico"
+  },
+  {
+    "id": 5,
+    "name": "Stella Artois",
+    "brand": "Stella Artois",
+    "type": "Lager",
+    "country": "Belgium"
+  },
+  {
+    "id": 6,
+    "name": "Budweiser",
+    "brand": "Budweiser",
+    "type": "Lager",
+    "country": "United States"
+  },
+  {
+    "id": 7,
+    "name": "Sierra Nevada Pale Ale",
+    "brand": "Sierra Nevada",
+    "type": "Pale Ale",
+    "country": "United States"
+  },
+  {
+    "id": 8,
+    "name": "Dogfish Head 60 Minute",
+    "brand": "Dogfish Head",
+    "type": "IPA",
+    "country": "United States"
+  },
+  {
+    "id": 9,
+    "name": "Stone IPA",
+    "brand": "Stone Brewing",
+    "type": "IPA",
+    "country": "United States"
+  },
+  {
+    "id": 10,
+    "name": "Lagunitas IPA",
+    "brand": "Lagunitas",
+    "type": "IPA",
+    "country": "United States"
+  },
+  {
+    "id": 11,
+    "name": "Leffe Blonde",
+    "brand": "Leffe",
+    "type": "Abbey Ale",
+    "country": "Belgium"
+  },
+  {
+    "id": 12,
+    "name": "Hoegaarden",
+    "brand": "Hoegaarden",
+    "type": "Wheat Beer",
+    "country": "Belgium"
+  },
+  {
+    "id": 13,
+    "name": "Chimay Blue",
+    "brand": "Chimay",
+    "type": "Trappist Ale",
+    "country": "Belgium"
+  },
+  {
+    "id": 14,
+    "name": "Duvel",
+    "brand": "Duvel",
+    "type": "Strong Ale",
+    "country": "Belgium"
+  },
+  {
+    "id": 15,
+    "name": "Weihenstephaner Hefeweizen",
+    "brand": "Weihenstephaner",
+    "type": "Wheat Beer",
+    "country": "Germany"
+  },
+  {
+    "id": 16,
+    "name": "Erdinger Weissbier",
+    "brand": "Erdinger",
+    "type": "Wheat Beer",
+    "country": "Germany"
+  },
+  {
+    "id": 17,
+    "name": "Augustiner Lagerbier Hell",
+    "brand": "Augustiner",
+    "type": "Lager",
+    "country": "Germany"
+  },
+  {
+    "id": 18,
+    "name": "Löwenbräu Original",
+    "brand": "Löwenbräu",
+    "type": "Lager",
+    "country": "Germany"
+  },
+  {
+    "id": 19,
+    "name": "Paulaner Oktoberfest",
+    "brand": "Paulaner",
+    "type": "Märzen",
+    "country": "Germany"
+  },
+  {
+    "id": 20,
+    "name": "Spaten Münchener Hell",
+    "brand": "Spaten",
+    "type": "Lager",
+    "country": "Germany"
+  },
+  {
+    "id": 21,
+    "name": "Asahi Super Dry",
+    "brand": "Asahi",
+    "type": "Lager",
+    "country": "Japan"
+  },
+  {
+    "id": 22,
+    "name": "Sapporo Premium",
+    "brand": "Sapporo",
+    "type": "Lager",
+    "country": "Japan"
+  },
+  {
+    "id": 23,
+    "name": "Kirin Ichiban",
+    "brand": "Kirin",
+    "type": "Lager",
+    "country": "Japan"
+  },
+  {
+    "id": 24,
+    "name": "Hitachino Nest White Ale",
+    "brand": "Kiuchi Brewery",
+    "type": "Wheat Beer",
+    "country": "Japan"
+  },
+  {
+    "id": 25,
+    "name": "Tsingtao",
+    "brand": "Tsingtao",
+    "type": "Lager",
+    "country": "China"
+  },
+  {
+    "id": 26,
+    "name": "Kingfisher",
+    "brand": "Kingfisher",
+    "type": "Lager",
+    "country": "India"
+  },
+  {
+    "id": 27,
+    "name": "Foster's Lager",
+    "brand": "Foster's",
+    "type": "Lager",
+    "country": "Australia"
+  },
+  {
+    "id": 28,
+    "name": "Victoria Bitter",
+    "brand": "Carlton & United",
+    "type": "Lager",
+    "country": "Australia"
+  },
+  {
+    "id": 29,
+    "name": "Coopers Pale Ale",
+    "brand": "Coopers",
+    "type": "Pale Ale",
+    "country": "Australia"
+  },
+  {
+    "id": 30,
+    "name": "Little Creatures Pale Ale",
+    "brand": "Little Creatures",
+    "type": "Pale Ale",
+    "country": "Australia"
+  },
+  {
+    "id": 31,
+    "name": "Molson Canadian",
+    "brand": "Molson",
+    "type": "Lager",
+    "country": "Canada"
+  },
+  {
+    "id": 32,
+    "name": "Labatt Blue",
+    "brand": "Labatt",
+    "type": "Lager",
+    "country": "Canada"
+  },
+  {
+    "id": 33,
+    "name": "Unibroue La Fin du Monde",
+    "brand": "Unibroue",
+    "type": "Tripel",
+    "country": "Canada"
+  },
+  {
+    "id": 34,
+    "name": "Sleeman Honey Brown",
+    "brand": "Sleeman",
+    "type": "Brown Ale",
+    "country": "Canada"
+  },
+  {
+    "id": 35,
+    "name": "Kronenbourg 1664",
+    "brand": "Kronenbourg",
+    "type": "Lager",
+    "country": "France"
+  },
+  {
+    "id": 36,
+    "name": "Carlsberg",
+    "brand": "Carlsberg",
+    "type": "Lager",
+    "country": "Denmark"
+  },
+  {
+    "id": 37,
+    "name": "Tuborg",
+    "brand": "Tuborg",
+    "type": "Lager",
+    "country": "Denmark"
+  },
+  {
+    "id": 38,
+    "name": "Mikkeller IPA",
+    "brand": "Mikkeller",
+    "type": "IPA",
+    "country": "Denmark"
+  },
+  {
+    "id": 39,
+    "name": "Amstel Light",
+    "brand": "Amstel",
+    "type": "Light Lager",
+    "country": "Netherlands"
+  },
+  {
+    "id": 40,
+    "name": "Grolsch Premium Lager",
+    "brand": "Grolsch",
+    "type": "Lager",
+    "country": "Netherlands"
+  },
+  {
+    "id": 41,
+    "name": "La Trappe Quadrupel",
+    "brand": "La Trappe",
+    "type": "Quadrupel",
+    "country": "Netherlands"
+  },
+  {
+    "id": 42,
+    "name": "Peroni Nastro Azzurro",
+    "brand": "Peroni",
+    "type": "Lager",
+    "country": "Italy"
+  },
+  {
+    "id": 43,
+    "name": "Moretti",
+    "brand": "Moretti",
+    "type": "Lager",
+    "country": "Italy"
+  },
+  {
+    "id": 44,
+    "name": "Menabrea",
+    "brand": "Menabrea",
+    "type": "Lager",
+    "country": "Italy"
+  },
+  {
+    "id": 45,
+    "name": "Estrella Damm",
+    "brand": "Estrella Damm",
+    "type": "Lager",
+    "country": "Spain"
+  },
+  {
+    "id": 46,
+    "name": "Mahou Cinco Estrellas",
+    "brand": "Mahou",
+    "type": "Lager",
+    "country": "Spain"
+  },
+  {
+    "id": 47,
+    "name": "San Miguel",
+    "brand": "San Miguel",
+    "type": "Lager",
+    "country": "Spain"
+  },
+  {
+    "id": 48,
+    "name": "Alhambra Reserva 1925",
+    "brand": "Alhambra",
+    "type": "Lager",
+    "country": "Spain"
+  },
+  {
+    "id": 49,
+    "name": "Super Bock",
+    "brand": "Super Bock",
+    "type": "Lager",
+    "country": "Portugal"
+  },
+  {
+    "id": 50,
+    "name": "Sagres",
+    "brand": "Sagres",
+    "type": "Lager",
+    "country": "Portugal"
+  },
+  {
+    "id": 51,
+    "name": "Dos Equis",
+    "brand": "Dos Equis",
+    "type": "Lager",
+    "country": "Mexico"
+  },
+  {
+    "id": 52,
+    "name": "Modelo Especial",
+    "brand": "Modelo",
+    "type": "Lager",
+    "country": "Mexico"
+  },
+  {
+    "id": 53,
+    "name": "Pacifico",
+    "brand": "Pacifico",
+    "type": "Lager",
+    "country": "Mexico"
+  },
+  {
+    "id": 54,
+    "name": "Negra Modelo",
+    "brand": "Modelo",
+    "type": "Dark Lager",
+    "country": "Mexico"
+  },
+  {
+    "id": 55,
+    "name": "Tecate",
+    "brand": "Tecate",
+    "type": "Lager",
+    "country": "Mexico"
+  },
+  {
+    "id": 56,
+    "name": "Quilmes",
+    "brand": "Quilmes",
+    "type": "Lager",
+    "country": "Argentina"
+  },
+  {
+    "id": 57,
+    "name": "Brahma",
+    "brand": "Brahma",
+    "type": "Lager",
+    "country": "Brazil"
+  },
+  {
+    "id": 58,
+    "name": "Skol",
+    "brand": "Skol",
+    "type": "Lager",
+    "country": "Brazil"
+  },
+  {
+    "id": 59,
+    "name": "Antarctica",
+    "brand": "Antarctica",
+    "type": "Lager",
+    "country": "Brazil"
+  },
+  {
+    "id": 60,
+    "name": "Polar",
+    "brand": "Polar",
+    "type": "Lager",
+    "country": "Venezuela"
+  },
+  {
+    "id": 61,
+    "name": "Samuel Adams Boston Lager",
+    "brand": "Samuel Adams",
+    "type": "Lager",
+    "country": "United States"
+  },
+  {
+    "id": 62,
+    "name": "Blue Moon",
+    "brand": "Blue Moon",
+    "type": "Wheat Beer",
+    "country": "United States"
+  },
+  {
+    "id": 63,
+    "name": "Coors Light",
+    "brand": "Coors",
+    "type": "Light Lager",
+    "country": "United States"
+  },
+  {
+    "id": 64,
+    "name": "Miller Lite",
+    "brand": "Miller",
+    "type": "Light Lager",
+    "country": "United States"
+  },
+  {
+    "id": 65,
+    "name": "Anchor Steam",
+    "brand": "Anchor Brewing",
+    "type": "Steam Beer",
+    "country": "United States"
+  },
+  {
+    "id": 66,
+    "name": "Fat Tire",
+    "brand": "New Belgium",
+    "type": "Amber Ale",
+    "country": "United States"
+  },
+  {
+    "id": 67,
+    "name": "Goose Island IPA",
+    "brand": "Goose Island",
+    "type": "IPA",
+    "country": "United States"
+  },
+  {
+    "id": 68,
+    "name": "Dogfish Head 90 Minute",
+    "brand": "Dogfish Head",
+    "type": "Imperial IPA",
+    "country": "United States"
+  },
+  {
+    "id": 69,
+    "name": "Bell's Two Hearted",
+    "brand": "Bell's Brewery",
+    "type": "IPA",
+    "country": "United States"
+  },
+  {
+    "id": 70,
+    "name": "Founders All Day IPA",
+    "brand": "Founders Brewing",
+    "type": "Session IPA",
+    "country": "United States"
+  },
+  {
+    "id": 71,
+    "name": "Pliny the Elder",
+    "brand": "Russian River",
+    "type": "Double IPA",
+    "country": "United States"
+  },
+  {
+    "id": 72,
+    "name": "Heady Topper",
+    "brand": "The Alchemist",
+    "type": "Double IPA",
+    "country": "United States"
+  },
+  {
+    "id": 73,
+    "name": "Spotted Cow",
+    "brand": "New Glarus",
+    "type": "Farmhouse Ale",
+    "country": "United States"
+  },
+  {
+    "id": 74,
+    "name": "Yuengling Traditional Lager",
+    "brand": "Yuengling",
+    "type": "Lager",
+    "country": "United States"
+  },
+  {
+    "id": 75,
+    "name": "Murphy's Irish Stout",
+    "brand": "Murphy's",
+    "type": "Stout",
+    "country": "Ireland"
+  },
+  {
+    "id": 76,
+    "name": "Smithwick's",
+    "brand": "Smithwick's",
+    "type": "Red Ale",
+    "country": "Ireland"
+  },
+  {
+    "id": 77,
+    "name": "Harp Lager",
+    "brand": "Harp",
+    "type": "Lager",
+    "country": "Ireland"
+  },
+  {
+    "id": 78,
+    "name": "Fuller's London Pride",
+    "brand": "Fuller's",
+    "type": "ESB",
+    "country": "United Kingdom"
+  },
+  {
+    "id": 79,
+    "name": "Newcastle Brown Ale",
+    "brand": "Newcastle",
+    "type": "Brown Ale",
+    "country": "United Kingdom"
+  },
+  {
+    "id": 80,
+    "name": "Young's Double Chocolate Stout",
+    "brand": "Young's",
+    "type": "Stout",
+    "country": "United Kingdom"
+  },
+  {
+    "id": 81,
+    "name": "Tennent's Lager",
+    "brand": "Tennent's",
+    "type": "Lager",
+    "country": "Scotland"
+  },
+  {
+    "id": 82,
+    "name": "BrewDog Punk IPA",
+    "brand": "BrewDog",
+    "type": "IPA",
+    "country": "Scotland"
+  },
+  {
+    "id": 83,
+    "name": "Innis & Gunn Original",
+    "brand": "Innis & Gunn",
+    "type": "Oak Aged Beer",
+    "country": "Scotland"
+  },
+  {
+    "id": 84,
+    "name": "Nastro Azzurro",
+    "brand": "Peroni",
+    "type": "Lager",
+    "country": "Italy"
+  },
+  {
+    "id": 85,
+    "name": "Birra Moretti La Rossa",
+    "brand": "Moretti",
+    "type": "Strong Lager",
+    "country": "Italy"
+  },
+  {
+    "id": 86,
+    "name": "Krombacher",
+    "brand": "Krombacher",
+    "type": "Pilsner",
+    "country": "Germany"
+  },
+  {
+    "id": 87,
+    "name": "Beck's",
+    "brand": "Beck's",
+    "type": "Lager",
+    "country": "Germany"
+  },
+  {
+    "id": 88,
+    "name": "Warsteiner",
+    "brand": "Warsteiner",
+    "type": "Pilsner",
+    "country": "Germany"
+  },
+  {
+    "id": 89,
+    "name": "Bitburger Premium",
+    "brand": "Bitburger",
+    "type": "Pilsner",
+    "country": "Germany"
+  },
+  {
+    "id": 90,
+    "name": "Schneider Weisse",
+    "brand": "Schneider Weisse",
+    "type": "Wheat Beer",
+    "country": "Germany"
+  },
+  {
+    "id": 91,
+    "name": "Rochefort 10",
+    "brand": "Rochefort",
+    "type": "Quadrupel",
+    "country": "Belgium"
+  },
+  {
+    "id": 92,
+    "name": "Orval",
+    "brand": "Orval",
+    "type": "Trappist Ale",
+    "country": "Belgium"
+  },
+  {
+    "id": 93,
+    "name": "Westmalle Tripel",
+    "brand": "Westmalle",
+    "type": "Tripel",
+    "country": "Belgium"
+  },
+  {
+    "id": 94,
+    "name": "Delirium Tremens",
+    "brand": "Huyghe Brewery",
+    "type": "Strong Ale",
+    "country": "Belgium"
+  },
+  {
+    "id": 95,
+    "name": "Kwak",
+    "brand": "Bosteels",
+    "type": "Strong Ale",
+    "country": "Belgium"
+  },
+  {
+    "id": 96,
+    "name": "Tiger Beer",
+    "brand": "Tiger",
+    "type": "Lager",
+    "country": "Singapore"
+  },
+  {
+    "id": 97,
+    "name": "Chang Beer",
+    "brand": "Chang",
+    "type": "Lager",
+    "country": "Thailand"
+  },
+  {
+    "id": 98,
+    "name": "Singha",
+    "brand": "Singha",
+    "type": "Lager",
+    "country": "Thailand"
+  },
+  {
+    "id": 99,
+    "name": "Bintang",
+    "brand": "Bintang",
+    "type": "Lager",
+    "country": "Indonesia"
+  },
+  {
+    "id": 100,
+    "name": "Castle Lager",
+    "brand": "Castle",
+    "type": "Lager",
+    "country": "South Africa"
+  }
+]
