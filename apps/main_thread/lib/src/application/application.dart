@@ -12,9 +12,9 @@ class Application extends StatelessWidget {
         appBarTheme: AppBarTheme(
           color: Colors.deepPurple,
           titleTextStyle: TextStyle(
-              fontSize: 24.0,
-              color: Colors.white,
-              fontFeatures: <FontFeature>[FontFeature.tabularFigures()],
+            fontSize: 24.0,
+            color: Colors.white,
+            fontFeatures: <FontFeature>[FontFeature.tabularFigures()],
           ),
         ),
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),

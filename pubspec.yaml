@@ -1,5 +1,61 @@
 name: multithread
+description: A set of small examples showcasing concurrency and isolates.
+repository: https://github.com/iTEEECH/multithread.git
+publish_to: none
+
 environment:
-  sdk: ^3.8.0
+  sdk: ^3.9.0
+
+workspace:
+  - apps/compute
+  - apps/isolates
+  - apps/main_thread
+
 dev_dependencies:
-  melos: ^6.3.2
+  melos: 7.1.1
+
+melos:
+  command:
+    version:
+      # Generate commit links in package changelogs.
+      linkToCommits: true
+      # Only allow versioning to happen on main branch.
+      # branch: main
+      # Additionally build a changelog at the root of the workspace.
+      workspaceChangelog: true
+
+    bootstrap:
+      runPubGetInParallel: false
+      usePubspecOverrides: true
+
+      environment:
+        sdk: ^3.9.0
+
+      dependencies:
+        flutter:
+          sdk: flutter
+        flutter_web_plugins:
+          sdk: flutter
+
+      dev_dependencies:
+        # https://pub.dev/packages/flutter_lints
+        flutter_lints: 6.0.0
+        flutter_test:
+          sdk:
+            flutter
+
+  clean:
+    hooks:
+      post: |
+        melos exec -c 1 -- "flutter clean"
+
+  scripts:
+    analyze:
+      description: Run `dart analyze` for all packages.
+      run: dart analyze .
+      exec:
+        concurrency: 1
+
+    pub:get:
+      description: Run `flutter pub get` for all packages.
+      run: flutter pub get

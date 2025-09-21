@@ -40,8 +40,7 @@ class _HomePageState extends State<HomePage> {
     _timer = Timer.periodic(const Duration(milliseconds: 10), (_) {
       if (mounted && _stopwatch.isRunning) {
         setState(() {
-          _elapsedTime = (_stopwatch.elapsedMilliseconds / 1000)
-              .toStringAsFixed(3);
+          _elapsedTime = (_stopwatch.elapsedMilliseconds / 1000).toStringAsFixed(3);
         });
       }
     });
@@ -55,10 +54,7 @@ class _HomePageState extends State<HomePage> {
   Future<List<Beer>> _fetchData(String path) async {
     try {
       final String response = await rootBundle.loadString(path);
-      return await compute(
-        (String response) => _parser(response),
-        response,
-      );
+      return await compute((String response) => _parser(response), response);
     } catch (error) {
       throw Exception(error);
     } finally {
@@ -68,9 +64,7 @@ class _HomePageState extends State<HomePage> {
 
   static List<Beer> _parser(String response) {
     final List json = jsonDecode(response) as List;
-    return List<Beer>.from(
-      json.map((data) => Beer.fromJson(data)),
-    );
+    return List<Beer>.from(json.map((data) => Beer.fromJson(data)));
   }
 
   @override

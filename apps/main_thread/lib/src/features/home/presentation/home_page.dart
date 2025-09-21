@@ -40,8 +40,7 @@ class _HomePageState extends State<HomePage> {
     _timer = Timer.periodic(const Duration(milliseconds: 10), (_) {
       if (mounted && _stopwatch.isRunning) {
         setState(() {
-          _elapsedTime = (_stopwatch.elapsedMilliseconds / 1000)
-              .toStringAsFixed(3);
+          _elapsedTime = (_stopwatch.elapsedMilliseconds / 1000).toStringAsFixed(3);
         });
       }
     });
@@ -65,9 +64,7 @@ class _HomePageState extends State<HomePage> {
 
   List<Beer> _parser(String response) {
     final List json = jsonDecode(response) as List;
-    return List<Beer>.from(
-      json.map((data) => Beer.fromJson(data)),
-    );
+    return List<Beer>.from(json.map((data) => Beer.fromJson(data)));
   }
 
   @override

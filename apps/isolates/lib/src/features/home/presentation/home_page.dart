@@ -40,8 +40,7 @@ class _HomePageState extends State<HomePage> {
     _timer = Timer.periodic(const Duration(milliseconds: 10), (_) {
       if (mounted && _stopwatch.isRunning) {
         setState(() {
-          _elapsedTime = (_stopwatch.elapsedMilliseconds / 1000)
-              .toStringAsFixed(3);
+          _elapsedTime = (_stopwatch.elapsedMilliseconds / 1000).toStringAsFixed(3);
         });
       }
     });
@@ -78,10 +77,7 @@ class _HomePageState extends State<HomePage> {
   static Future<void> _isolate(List args) async {
     final [SendPort sendPort, String response] = args;
     final List json = jsonDecode(response) as List;
-    Isolate.exit(
-      sendPort,
-      List<Beer>.from(json.map((data) => Beer.fromJson(data))),
-    );
+    Isolate.exit(sendPort, List<Beer>.from(json.map((data) => Beer.fromJson(data))));
   }
 
   @override

@@ -5,13 +5,7 @@ class Beer {
   final String type;
   final String country;
 
-  Beer({
-    required this.id,
-    required this.name,
-    required this.brand,
-    required this.type,
-    required this.country,
-  });
+  Beer({required this.id, required this.name, required this.brand, required this.type, required this.country});
 
   factory Beer.fromJson(Map<String, dynamic> json) {
     return Beer(

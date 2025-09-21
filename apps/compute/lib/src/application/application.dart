@@ -8,7 +8,7 @@ class Application extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Compute',
-      theme:  ThemeData(
+      theme: ThemeData(
         appBarTheme: AppBarTheme(
           color: Colors.deepPurple,
           titleTextStyle: TextStyle(
